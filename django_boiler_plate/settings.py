@@ -147,6 +147,7 @@ STATICFILES_DIRS = [
 # Overriding Media Upload Folder
 MEDIA_ROOT = BASE_DIR / 'uploads'
 
+# Accessing Images with Below URL
 MEDIA_URL = '/user-media/'
 
 SESSION_COOKIE_AGE = 120 # 120 seconds Default : 2 weeks
