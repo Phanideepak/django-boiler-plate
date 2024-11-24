@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'profiles',
     'reviews',
     'blog',
     'book_outlet',
@@ -140,4 +141,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Adding Global Static Files 
 STATICFILES_DIRS = [
     BASE_DIR / "static"
-] 
+]
+
+
+# Overriding Media Upload Folder
+MEDIA_ROOT = BASE_DIR / 'uploads'
+
+MEDIA_URL = '/user-media/'
+
+SESSION_COOKIE_AGE = 120 # 120 seconds Default : 2 weeks
