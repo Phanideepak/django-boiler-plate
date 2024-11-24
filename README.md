@@ -9,7 +9,7 @@
 1. `challenges` app contains basic view, django template language concepts.
 2. `book_outlet` app contains Models, Queries and Database relationships
 3. `reviews` app contains Forms, ModelForm, Class Based Views.
-4. 
+4. `profiles` app contains FileUploads feature.
 
 # Course Project
 
